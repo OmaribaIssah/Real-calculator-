@@ -1,3 +1,4 @@
+//Brian Omariba ENE212-0162/2021
 #include <stdio.h>
 
 void sortArray(int arr[], int n) {
