@@ -1,0 +1,40 @@
+//Brian Omariba 
+
+
+#include <stdio.h>
+
+int main() {
+    char regNumber[20];
+    char firstName[50], lastName[50];
+    char course1[50], course2[50], course3[50];
+
+    // Prompt user to enter registration number
+    printf("Enter student registration number: ");
+    scanf("%s", regNumber);
+
+    // Prompt user to enter student names
+    printf("Enter student first name: ");
+    scanf("%s", firstName);
+    printf("Enter student last name: ");
+    scanf("%s", lastName);
+
+    // Prompt user to enter at least three courses
+    printf("Enter at least three courses registered:\n");
+    printf("Course 1: ");
+    scanf("%s", course1);
+    printf("Course 2: ");
+    scanf("%s", course2);
+    printf("Course 3: ");
+    scanf("%s", course3);
+
+    // Display entered information
+    printf("\nStudent Information:\n");
+    printf("Registration Number: %s\n", regNumber);
+    printf("Student Name: %s %s\n", firstName, lastName);
+    printf("Registered Courses:\n");
+    printf("1. %s\n", course1);
+    printf("2. %s\n", course2);
+    printf("3. %s\n", course3);
+
+    return 0;
+}
